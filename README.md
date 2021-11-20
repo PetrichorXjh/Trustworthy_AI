@@ -47,6 +47,8 @@ python main.py
 </center>
 图3 Sgd的loss和acc，其中loss for Sgd = 0.40721, acc for Sgd = 0.88750
 
+
+表1 实验结果对比
 | Optimizer |     Loss     | Acc       |
 | --------- |--------------| ----------|
 | Adagrad   |     0.4705   |    0.8556 |
