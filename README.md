@@ -29,8 +29,8 @@ python main.py
   <img style="border-radius: 0.3125em;"     src="figure\ada_loss.png" width="400">    
   <img style="border-radius: 0.3125em;"     src="figure\ada_acc.png" width="400">    
   <br>    
-  <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">图1 Adagrad的loss和acc</div></center>
-
+</center>
+图1 Adagrad的loss和acc
 
 loss for Adagrad = 0.47054, acc for Adagrad = 0.85560
 
@@ -38,11 +38,8 @@ loss for Adagrad = 0.47054, acc for Adagrad = 0.85560
 <center class="half">    
   <img style="border-radius: 0.3125em;"     src="figure\adam_loss.png" width="400">    
   <img style="border-radius: 0.3125em;"     src="figure\adam_acc.png" width="400">    
-  <br>    
-  <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">图2 Adam的loss和acc</div>
 </center>
-
-
+图2 Adam的loss和acc
 
 loss for Adam= 0.37655, acc for for Adam = 0.87870
 
@@ -51,17 +48,16 @@ loss for Adam= 0.37655, acc for for Adam = 0.87870
   <img style="border-radius: 0.3125em;"     src="figure\sgd_loss.png" width="400">    
   <img style="border-radius: 0.3125em;"     src="figure\sgd_acc.png" width="400">    
   <br>    
-  <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">图3 Sgd的loss和acc</div>
 </center>
-
+图3 Sgd的loss和acc
 
 loss for Sgd = 0.40721, acc for Sgd = 0.88750
 
-| Optimizer |      | Loss   |      | Acc    |
-| --------- | ---- | ------ | ---- | ------ |
-| Adagrad   |      | 0.4705 |      | 0.8556 |
-| Adam      |      | 0.3766 |      | 0.8787 |
-| SGD       |      | 0.4072 |      | 0.8875 |
+| Optimizer |     Loss     | Acc       |
+| --------- | ----  --     | ----      |
+| Adagrad   |     0.4705   |    0.8556 |
+| Adam      |     0.3766  |     0.8787 |
+| SGD       |     0.4072  |     0.8875 |
 
 在本次实验中，我选择了三个不同的优化器对模型进行训练，分别为adagrad、adam和sgd。我们不难发现，不同的优化器类型对模型训练的影响十分大。
 
