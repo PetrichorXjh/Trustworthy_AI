@@ -14,10 +14,10 @@ CIFAR10
 
 python main.py 
 
---lr: learning rate\\
---optim: the optimizer for model training\\
---ep:  the epoch for model training\\
---seed: the random seed\\
+--lr: learning rate\n
+--optim: the optimizer for model training\n
+--ep:  the epoch for model training\n
+--seed: the random seed\n
 
 ## Evaluation
 
