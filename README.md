@@ -4,6 +4,7 @@
 ## Environment
 
 python  --  3+
+
 pytorch --  1.0+
 
 ## Dataset
@@ -24,12 +25,12 @@ python main.py
 
 ## Evaluation
 
-<center class="half">    <img style="border-radius: 0.3125em;"     src="figure\ada_loss.png" width="300">    <img style="border-radius: 0.3125em;"     src="figure\ada_acc.png" width="300">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">图1 Adagrad的loss和acc</div></center>
+<center class="half">    <img style="border-radius: 0.3125em;"     src="figure\ada_loss.png" width="500">    <img style="border-radius: 0.3125em;"     src="figure\ada_acc.png" width="500">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">图1 Adagrad的loss和acc</div></center>
 
 loss for Adagrad = 0.47054, acc for Adagrad = 0.85560
 
 
-<center class="half">    <img style="border-radius: 0.3125em;"     src="figure\adam_loss.png" width="300">    <img style="border-radius: 0.3125em;"     src="figure\adam_acc.png" width="300">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">图2 Adam的loss和acc</div></center>
+<center class="half">    <img style="border-radius: 0.3125em;"     src="figure\adam_loss.png" width="500">    <img style="border-radius: 0.3125em;"     src="figure\adam_acc.png" width="500">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">图2 Adam的loss和acc</div></center>
 
 
 loss for Adam= 0.37655, acc for for Adam = 0.87870
