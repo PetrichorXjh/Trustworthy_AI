@@ -17,7 +17,7 @@ python main.py
 
 --lr: learning rate
 
---optim: the optimizer for model training
+--optim: the optimizer for model training [SGD, Adam, Adagrad]
 
 --ep:  the epoch for model training
 
